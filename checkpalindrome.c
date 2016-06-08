@@ -13,6 +13,7 @@ void check_palindrome(struct node *head){
             flag=1;
             break;
         }
+        temp=temp->next;
     }
     if(flag==1){
         printf("Not a Palindrome");
