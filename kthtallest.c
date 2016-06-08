@@ -5,14 +5,13 @@ int cmp(const void *a,const void *b){
 int main()
 {
     int n,i;
-    scanf("%d",&n);
-    int a[n];
-    for(i=0;i<n;i++){
+    int a[50];
+    for(i=0;i<50;i++){
         scanf("%d",&a[i]);
     }
     int k;
     scanf("%d",&k);
-    qsort(a,n,sizeof(int),cmp);
+    qsort(a,50,sizeof(int),cmp);
     printf("%d",a[k-1]);
     return 0;
 }
