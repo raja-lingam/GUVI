@@ -33,6 +33,7 @@ int main()
         }
         else{
             flag=1;
+            break;
         }
     }
     if(flag==1){
